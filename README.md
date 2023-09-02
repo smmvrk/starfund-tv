@@ -1,4 +1,1 @@
-# Starfund - Smart TV Application
-
-### React Native + React Native Web
-# starfund-tv
+# webos emulator => https://webostv.developer.lge.com/develop/tools/cli-installation
