@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+.env
+
+# Dependency directories
+/bin/
+/lib/
+/build/
+/dist/
+/cache/
+/.pnp/
+.pnp.js
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw??
+Вы можете адаптировать этот файл .gitignore под свои нужды, добавляя или удаляя строки в зависимости от конкретных требований вашего проекта. Например, если вы используете TypeScript, вы можете добавить строки для игнорирования файлов .ts и .js.map:
+
+gitignore
+Copy code
+# TypeScript
+*.ts
+*.d.ts
+*.tsx
+*.js.map
+Также, если ваш проект использует какие-либо инструменты сборки, такие как Webpack или Babel, вы можете добавить правила игнорирования файлов, создаваемых этими инструментами, чтобы они не попадали в репозиторий.
+
+
+
+
+
